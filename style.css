@@ -1,0 +1,89 @@
+/*work sans fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+
+/*---header style-----*/
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-around;
+}
+.head-title{
+font-size: 45px;
+font-weight: 700px;
+}
+nav{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    
+    margin-left: 30px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.top-info{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.top-info h1{
+    font-size: 64px;
+    font-weight: 700px;
+}
+.top-title{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 0px 247px;
+margin-bottom: 32px;
+
+
+}
+button{
+    width: 180px;
+    height: 64px;
+    color: #ffffff;
+    background-color: #FF900E;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.top-img{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 59px;
+}
+
+/*quick list style*/
+.quick-list{
+    display: flex;
+    padding-top: 50px;
+}
+.quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.quick-list-images .image{
+    width: 242px;
+    height: 242px;
+}
