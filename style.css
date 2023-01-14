@@ -77,8 +77,13 @@ button{
 .quick-list{
     display: flex;
     padding-top: 50px;
+
+}
+.quick-list-banner{
+width: 50%;
 }
 .quick-list-images{
+
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
@@ -86,4 +91,14 @@ button{
 .quick-list-images .image{
     width: 242px;
     height: 242px;
+}
+.quick-list-info{
+    width: 50%;
+    padding-top: 15%;
+}
+.quick{
+    color: #737273;
+}
+.features{
+    color: #FF900E;
 }
