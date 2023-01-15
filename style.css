@@ -181,7 +181,22 @@ font-size: 65px;
 }
 
 /*----------facts style-------------------*/
+
+.facts-section{
+    padding-top: 180px;
+    padding-left: 10%;
+}
+.facts-content{
+    padding-bottom: 5%;
+}
 .facts-boxes{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    
+    
 }
+.facts-box{
+    border: 1px solid #FF900E;
+}
+
+
