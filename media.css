@@ -1,0 +1,18 @@
+@media only screen and (max-width: 576px) {
+  /* styles for header section */
+  .top-header {
+    padding-top: 15px;
+    align-items: stretch;
+  }
+  .head-title {
+    font-size: 25px;
+  }
+  nav ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  nav li {
+    flex-direction: column;
+    text-align: start;
+  }
