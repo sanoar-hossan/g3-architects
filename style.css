@@ -67,6 +67,7 @@ button{
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    transition: 0.4s all ease-in-out;
 }
 .top-img{
     height: 500px;
@@ -162,10 +163,11 @@ padding: 20px;
 .features-button{
     padding-left: 54%;
     margin-top: -15%;
+    z-index: 1;
     
 }
 .features-button .year{
-   
+    cursor: pointer;
     font-weight: 700;
 font-size: 65px;
 }
@@ -190,13 +192,60 @@ font-size: 65px;
     padding-bottom: 5%;
 }
 .facts-boxes{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
+    display: flex;
+
+  justify-content: center;
+    margin-right: 80px;
     
 }
 .facts-box{
-    border: 1px solid #FF900E;
+    padding: 45px 35px;
+
+  border: 1px solid #ff900e;
+
+  text-align: center;
+
+  margin-left: 124px;
+  transition: 0.4s all ease-in-out;
+  border-radius: 5px;
+}
+.facts-box:hover{
+    background-color: #ff900e;
+    color: #ffff;
+}
+/*sponsors style*/
+.sponsors-content{
+    text-align: center;
+
+  padding-top: 130px;
+}
+.sponsors-image{
+    display: flex;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+  padding-top: 30px;
 }
 
-
+/*footer style-*/
+footer {
+    text-align: center;
+  
+    width: 1200px;
+  
+    margin: auto;
+  
+    border: 5px;
+  }
+footer p {
+    padding: 40px 410px;
+  
+    font-size: 20px;
+  
+    background: #fff4e7;
+  
+    color: #424242;
+  
+    margin: 130px 0;
+  }
